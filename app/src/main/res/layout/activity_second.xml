@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who is the best cricketer in the world?"
+        android:id="@+id/txt"
+        android:layout_margin="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options:"
+        android:layout_margin="30dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sachin Tendulkar"
+        android:layout_margin="30dp"
+         android:id="@+id/sachin"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virat Kolli"
+        android:layout_margin="30dp"
+        android:id="@+id/virat"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adam Gilchirst"
+        android:layout_margin="30dp"
+        android:id="@+id/adam"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jacques Kallis"
+        android:layout_margin="30dp"
+        android:id="@+id/jacques"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Button"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btn_next"
+        android:layout_margin="30dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
